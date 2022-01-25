@@ -32,13 +32,13 @@ console.log(sum3);
 // If there is only one parameter dose not need ()
 const saySomething = message => console.log(message);
 
-saySomething("Hello World");
+//saySomething("Hello World");
 
 //If has no parameters needs a empty ()
 
 const sayHello = () => console.log("Hello!");
 
-sayHello();
+//sayHello();
 
 // Returning Multiple Lines
 const returnMultipleLines = () =>(
@@ -47,4 +47,4 @@ const returnMultipleLines = () =>(
     </p>`
 )
 
-console.log(returnMultipleLines());
+//console.log(returnMultipleLines());
